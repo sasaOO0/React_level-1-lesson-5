@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <>
@@ -7,9 +7,9 @@ const Header = () => {
       <h1>c4a.dev </h1>
       <ul className="flex">
         <li className="main-list">
-          <a className="main-link" href="/html">
+          <Link className="main-link" href="/html">
             HTML
-          </a>
+          </Link>
           <ul className="sub-ul">
             <li>
               <a href="">Full Course</a>
@@ -23,9 +23,9 @@ const Header = () => {
           </ul>
         </li>
         <li className="main-list">
-          <a className="main-link" href="/css">
+          <Link className="main-link" href="/css">
             CSS
-          </a>
+          </Link>
           <ul className="sub-ul">
             <li>
               <a href="">Full Course</a>
@@ -50,9 +50,9 @@ const Header = () => {
           </ul>
         </li>
         <li className="main-list">
-          <a className="main-link" href="/javascript">
+          <Link className="main-link" href="/javascript">
             JavaScript
-          </a>
+          </Link>
           <ul className="sub-ul sub-of-js">
             <li>
               <a href="">coming soon🔥</a>
