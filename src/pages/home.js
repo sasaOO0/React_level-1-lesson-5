@@ -1,5 +1,6 @@
 import Header from '../copm/header';
 import Footer from '../copm/footer';
+import Maincontent from '../copm/Maincontent';
 
 
 
@@ -8,9 +9,7 @@ const Home = () => {
   return (
     <>
     <Header />
-    <main>
-      Home Page
-    </main>
+    <Maincontent Pagename ="Home " />
     <Footer />
   </>
   );
